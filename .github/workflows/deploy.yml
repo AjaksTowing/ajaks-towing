@@ -18,4 +18,4 @@ jobs:
           username: ${{ secrets.USERNAME }}
           port: ${{ secrets.PORT }}
           key: ${{ secrets.SSHKEY }}
-          script: "cd ~/ajaks-towing && ./deploy.sh"
+          script: "cd ~/ajaks-towing && chmod +x deploy.sh && ./deploy.sh"
