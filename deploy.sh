@@ -8,10 +8,10 @@ git pull origin main
 echo "New changes copied to the server!"
 
 echo "Installing dependencies..."
-bun install
+npm install
 
 echo "Creating a Production Build..."
-bun run build
+npm run build
 
 echo "PM2 Reload"
 pm2 reload 0
