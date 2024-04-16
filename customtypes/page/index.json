@@ -1,0 +1,154 @@
+{
+  "id": "page",
+  "label": "Page",
+  "format": "page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "UID",
+          "placeholder": ""
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "single": "heading1"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "call_to_action": {
+              "type": "SharedSlice"
+            },
+            "post": {
+              "type": "SharedSlice"
+            },
+            "video_banner": {
+              "type": "SharedSlice"
+            },
+            "map": {
+              "type": "SharedSlice"
+            },
+            "blog_preview": {
+              "type": "SharedSlice"
+            },
+            "testimonials": {
+              "type": "SharedSlice"
+            },
+            "get_in_touch_block": {
+              "type": "SharedSlice"
+            },
+            "blog_grid": {
+              "type": "SharedSlice"
+            },
+            "content_grid": {
+              "type": "SharedSlice"
+            },
+            "body": {
+              "type": "SharedSlice"
+            },
+            "banner": {
+              "type": "SharedSlice"
+            },
+            "hero": {
+              "type": "SharedSlice"
+            },
+            "highlight": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        }
+      },
+      "meta_description": {
+        "type": "Text",
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        }
+      },
+      "meta_image": {
+        "type": "Image",
+        "config": {
+          "label": "Meta Image",
+          "constraint": {
+            "width": 2400,
+            "height": 1260
+          },
+          "thumbnails": []
+        }
+      }
+    },
+    "Menu Settings": {
+      "add_to_menu": {
+        "type": "Boolean",
+        "config": {
+          "label": "Add To Menu",
+          "placeholder_false": "Does not show up in menu",
+          "placeholder_true": "Will be listed in the menu",
+          "default_value": false
+        }
+      },
+      "isdropdown": {
+        "type": "Boolean",
+        "config": {
+          "label": "IsDropDown",
+          "placeholder_false": "Link without dropdown",
+          "placeholder_true": "Link with dropdown",
+          "default_value": false
+        }
+      },
+      "act_as_button": {
+        "type": "Boolean",
+        "config": {
+          "label": "Act As Button (AAB)",
+          "placeholder_false": "Acting as a Link (user will not be able to navigate to 'uid' when clicked on)",
+          "placeholder_true": "Acting as a Button (user will not be able to navigate when clicked on)",
+          "default_value": false
+        }
+      },
+      "button_trigger": {
+        "type": "Text",
+        "config": {
+          "label": "Button Trigger (requires AAB)",
+          "placeholder": ""
+        }
+      },
+      "dropdown_items": {
+        "type": "Group",
+        "config": {
+          "label": "DropDown Items",
+          "repeat": true,
+          "fields": {
+            "link": {
+              "type": "Link",
+              "config": {
+                "label": "link",
+                "select": "document",
+                "customtypes": ["page", "blog_post", "service_page"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

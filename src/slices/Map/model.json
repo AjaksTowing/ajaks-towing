@@ -1,0 +1,33 @@
+{
+  "id": "map",
+  "type": "SharedSlice",
+  "name": "Map",
+  "description": "Map",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {
+        "longitude": {
+          "type": "Text",
+          "config": {
+            "label": "longitude",
+            "placeholder": ""
+          }
+        },
+        "latitude": {
+          "type": "Text",
+          "config": {
+            "label": "latitude",
+            "placeholder": ""
+          }
+        }
+      }
+    }
+  ]
+}

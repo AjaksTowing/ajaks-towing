@@ -1,0 +1,30 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"longitude",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "exercise",
+							"type": "Text"
+						}
+					],
+					[
+						"latitude",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "those",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

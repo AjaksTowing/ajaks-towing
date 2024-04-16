@@ -1,0 +1,23 @@
+[
+  {
+    "__TYPE__": "SharedSliceContent",
+    "variation": "default",
+    "primary": {
+      "posts_count": {
+        "__TYPE__": "FieldContent",
+        "type": "Number",
+        "value": "2"
+      },
+      "is_ascending": {
+        "__TYPE__": "BooleanContent",
+        "value": true
+      }
+    },
+    "items": [
+      {
+        "__TYPE__": "GroupItemContent",
+        "value": []
+      }
+    ]
+  }
+]

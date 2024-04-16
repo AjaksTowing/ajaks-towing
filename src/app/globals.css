@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+
+  /* Adding Custom Font */
+  @font-face {
+    font-weight: 100;
+    font-style: normal;
+    font-family: "Graphik-Trial";
+    src: url("/assets/fonts/Graphik-Thin-Trial.otf");
+  }
+  @font-face {
+    font-weight: 200;
+    font-style: normal;
+    font-family: "Graphik-Trial";
+    src: url("/assets/fonts/Graphik-Light-Trial.otf");
+  }
+  @font-face {
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Graphik-Trial";
+    src: url("/assets/fonts/Graphik-Regular-Trial.otf");
+  }
+  @font-face {
+    font-weight: 500;
+    font-style: normal;
+    font-family: "Graphik-Trial";
+    src: url("/assets/fonts/Graphik-Medium-Trial.otf");
+  }
+  @font-face {
+    font-weight: 600;
+    font-style: normal;
+    font-family: "Graphik-Trial";
+    src: url("/assets/fonts/Graphik-Semibold-Trial.otf");
+  }
+  @font-face {
+    font-weight: 700;
+    font-style: normal;
+    font-family: "Graphik-Trial";
+    src: url("/assets/fonts/Graphik-Bold-Trial.otf");
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trigger-active {
+    @apply bg-[#DD841C];
+  }
+
+  .trigger-outline {
+    @apply border border-[#DD841C];
+  }
+}

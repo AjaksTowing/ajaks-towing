@@ -1,0 +1,70 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"testimonial",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Irure cillum minim est tempor occaecat quis pariatur culpa veniam nulla aliquip aute. Ullamco minim fugiat ut fugiat."
+									}
+								}
+							]
+						}
+					],
+					[
+						"author_name",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "important",
+							"type": "Text"
+						}
+					],
+					[
+						"author_image",
+						{
+							"origin": {
+								"id": "main",
+								"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+								"width": 4752,
+								"height": 3168
+							},
+							"url": "https://images.unsplash.com/photo-1589652717521-10c0d092dea9",
+							"width": 4752,
+							"height": 3168,
+							"edit": {
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								},
+								"background": "transparent"
+							},
+							"credits": null,
+							"alt": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"author_tagline",
+						{
+							"__TYPE__": "FieldContent",
+							"value": "closer",
+							"type": "Text"
+						}
+					]
+				]
+			}
+		]
+	}
+]

@@ -1,0 +1,41 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"videourl": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "https://d2pnsmz45e0v9n.cloudfront.net/d4veer%2Ffile%2F81753e3e6f5dd21f7b3495617c958046_9d66725ba2105f1833731ade5b7f334e.mp4?response-content-disposition=inline%3Bfilename%3D%2281753e3e6f5dd21f7b3495617c958046_9d66725ba2105f1833731ade5b7f334e.mp4%22%3B&response-content-type=video%2Fmp4&Expires=1712828782&Signature=AdAX54sRQxGqQSIThemO0tK9MHOT7Z8VzMri2Hj3RKLzgSF1EGYx3MnR~BnzigFycmgVw2vu4rcVrZ1C5TKbYVVgbV4qT8c6W-3OxBmI1PY1BsjsMjlvtf8u4UWVw536kwA3Tkz0fBnB74kmIGpr~Xlcp7d0WBOMLpcuWPhoBN-1rhrMxHz17JFpv1sgJErW14f6WdWclgQ1Xi-rIewsOfhdij80vhiBewf~G6sSJjQ0zWd2wlrhg-jl3EJIsD3vBdI~52kzVVw9X2R2i-vWXKH16iNaAI5jiIvT9mNgrscgMW-tEhdhxUrPa-eq65yVh-G00kRltuGQO97m8i26DQ__&Key-Pair-Id=APKAJT5WQLLEOADKLHBQ"
+			},
+			"heading": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Thank"
+						}
+					}
+				]
+			},
+			"body": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Consequat cillum laboris dolore sit aliquip."
+						}
+					}
+				]
+			},
+			"mobile_videourl": {
+				"__TYPE__": "FieldContent",
+				"value": "social",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

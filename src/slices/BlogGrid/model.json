@@ -1,0 +1,35 @@
+{
+  "id": "blog_grid",
+  "type": "SharedSlice",
+  "name": "BlogGrid",
+  "description": "BlogGrid",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "posts_count": {
+          "type": "Number",
+          "config": {
+            "label": "Posts Count",
+            "placeholder": ""
+          }
+        },
+        "is_ascending": {
+          "type": "Boolean",
+          "config": {
+            "label": "Direction",
+            "placeholder_false": "Descending",
+            "placeholder_true": "Ascending",
+            "default_value": false
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

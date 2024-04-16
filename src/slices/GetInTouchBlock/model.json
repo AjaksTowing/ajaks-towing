@@ -1,0 +1,18 @@
+{
+  "id": "get_in_touch_block",
+  "type": "SharedSlice",
+  "name": "GetInTouchBlock",
+  "description": "GetInTouchBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {},
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "video_banner",
+  "type": "SharedSlice",
+  "name": "VideoBanner",
+  "description": "VideoBanner",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "videourl": {
+          "type": "Text",
+          "config": {
+            "label": "VideoURL",
+            "placeholder": ""
+          }
+        },
+        "heading": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Heading",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "body": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "mobile_videourl": {
+          "type": "Text",
+          "config": {
+            "label": "Mobile VideoURL",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}
